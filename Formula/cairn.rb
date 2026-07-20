@@ -3,28 +3,28 @@
 class Cairn < Formula
   desc "Architecture diagrams as code — typed views, semantic layout, overlap-free labels"
   homepage "https://github.com/R0kshan/cairn"
-  version "1.0.0-RC05"
+  version "1.0.0-RC06"
   license "MIT"
 
   on_macos do
     on_arm do
       url "https://github.com/R0kshan/cairn/releases/download/v#{version}/cairn-#{version}-darwin-arm64"
-      sha256 "f84f9523fc1ade7df9f7d807b1f9ff714789d0b370ae8dabfa96ab7c3fec4e78"
+      sha256 "125a9e0de38c1507748578e9ca7f6898e0572830a93ed0803e53cf2f443bb50e"
     end
     on_intel do
       url "https://github.com/R0kshan/cairn/releases/download/v#{version}/cairn-#{version}-darwin-x64"
-      sha256 "1428e36b4cb6d400ee67372ab1dd66b4b34f5cdeca5b3394bd3e432c8ae00858"
+      sha256 "b771ec332015d4d101bcdb5cdcc80c49e0b1c3f29a9b5d85bfee2e5cb41c9eaa"
     end
   end
 
   on_linux do
     on_arm do
       url "https://github.com/R0kshan/cairn/releases/download/v#{version}/cairn-#{version}-linux-arm64"
-      sha256 "5c6dae3f9b129e003e8cc70b9aa7afadcca32488b13ba0d1b3f5fcc9ae49b468"
+      sha256 "820a18a6cb3b02f505c4974818e495ce2c1cdca8ed67d17f495f61a02ab7a3a5"
     end
     on_intel do
       url "https://github.com/R0kshan/cairn/releases/download/v#{version}/cairn-#{version}-linux-x64"
-      sha256 "91c42d518d7375ace40345d76da2643c67d2153634173f7f4a87d258393ea7fd"
+      sha256 "2ddf75d18f1d8ad7c1d02bc13c1dd5775e9ff106232106c4998cd517b30e2053"
     end
   end
 
