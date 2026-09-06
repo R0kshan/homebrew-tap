@@ -39,7 +39,7 @@ class Cairn < Formula
   # editing this formula. Rendered with its checksum by
   # scripts/render-packaging.mjs, from the same checksums file as the binaries.
   resource "licenses" do
-    url "https://github.com/R0kshan/cairn/releases/download/v#{version}/cairn-#{version}-licenses.tar.gz"
+    url "https://github.com/R0kshan/cairn/releases/download/v1.0.0-RC14/cairn-1.0.0-RC14-licenses.tar.gz"
     sha256 "2d6d23b70a5a96e9d9ef9007c7a2781facebeccab4319d4d2b06314dc662f5c5"
   end
 
