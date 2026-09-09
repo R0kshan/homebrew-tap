@@ -3,28 +3,28 @@
 class Cairn < Formula
   desc "Architecture diagrams as code — typed views, semantic layout, no label overlap"
   homepage "https://github.com/R0kshan/cairn"
-  version "1.0.0-RC14"
+  version "1.0.0-RC15"
   license "Apache-2.0"
 
   on_macos do
     on_arm do
       url "https://github.com/R0kshan/cairn/releases/download/v#{version}/cairn-#{version}-darwin-arm64"
-      sha256 "1851b463a47dfaa2b6209cf3f500ba5acd5b740305668c8bb65a621fa1417dbd"
+      sha256 "51ec7ef283ecd91e93291283c4dd144489eb84300931a93ebd7908c714360e8b"
     end
     on_intel do
       url "https://github.com/R0kshan/cairn/releases/download/v#{version}/cairn-#{version}-darwin-x64"
-      sha256 "fbfd310789bc9f9a8385f068789151e8653876f1ee2c49a36ba1ba0a8f790548"
+      sha256 "494522699f07725a23f30247a8d59b72ec60454fae38024952fbe349c1783aed"
     end
   end
 
   on_linux do
     on_arm do
       url "https://github.com/R0kshan/cairn/releases/download/v#{version}/cairn-#{version}-linux-arm64"
-      sha256 "2c481cf0412ef16179c2d44ba9fe4ab285c20a0d7254adea003cfc86e59ab112"
+      sha256 "ea547324251f5fe352058439375eb65a5c01926fb8e4f8737cba5d72394a78ac"
     end
     on_intel do
       url "https://github.com/R0kshan/cairn/releases/download/v#{version}/cairn-#{version}-linux-x64"
-      sha256 "e75df250e4203bf140dce0e17a3fe630f7e06664bb297aa65c337c674911fd95"
+      sha256 "259cc2a6b6a22531d387e4d75f66063aee7cf5114b5d7d9527b316c9fb1272af"
     end
   end
 
@@ -39,8 +39,8 @@ class Cairn < Formula
   # editing this formula. Rendered with its checksum by
   # scripts/render-packaging.mjs, from the same checksums file as the binaries.
   resource "licenses" do
-    url "https://github.com/R0kshan/cairn/releases/download/v1.0.0-RC14/cairn-1.0.0-RC14-licenses.tar.gz"
-    sha256 "2d6d23b70a5a96e9d9ef9007c7a2781facebeccab4319d4d2b06314dc662f5c5"
+    url "https://github.com/R0kshan/cairn/releases/download/v1.0.0-RC15/cairn-1.0.0-RC15-licenses.tar.gz"
+    sha256 "c405c5af05f290098668e690e8430be1733aa6f1d23bae3e9d85f2444613a54f"
   end
 
   def install
